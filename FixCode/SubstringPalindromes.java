@@ -31,7 +31,7 @@ public class PalindromeSubstring {
             if (charSTCK.size() > 1) {
                 System.out.println("even finder " + charSTCK.get(i - 2) +  ch);
             }
-            if (!charSTCK.isEmpty(); && ch == charSTCK.peek()) {
+            if (!charSTCK.isEmpty() && ch == charSTCK.peek()) {
                 System.out.println("odd finder " + ch + "" + charSTCK.peek());
             }
 
@@ -56,7 +56,7 @@ public class PalindromeSubstring {
                     if (syper.str.length() > lgst.length()) {
                         lgst = syper.str;
                         pos.remove(syper);
-                        p--;;
+                        p--;
                     }
                 }
             }
